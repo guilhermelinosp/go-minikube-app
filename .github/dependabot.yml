@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod" # Specifies Go modules as the package ecosystem
+    directory: "/"               # Location of the Go module files (e.g., go.mod)
+    schedule:
+      interval: "weekly"         # Update frequency (can be daily, weekly, or monthly)
